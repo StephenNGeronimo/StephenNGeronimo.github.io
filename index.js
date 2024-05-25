@@ -4,11 +4,11 @@ const countLikes1 = document.getElementById("countLikes1")
 const countLikes2 = document.getElementById("countLikes2")
 
 
-function hitLikes1{
+function hitLikes1(){
   let totalLikes = parseInt(countLikes1) + 1
   countLikes1.textContent = totalLikes1.toString()
 }
-function hitLikes1{
+function hitLikes2 (){
   let totalLikes = parseInt(countLikes2) + 1
   countLikes2.textContent = totalLikes2.toString()
 }
