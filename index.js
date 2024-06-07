@@ -23,6 +23,11 @@ function hitLikes3() {
   let totalLikes3 = parseInt(countDilikes1.value) + 1
   countDislikes1.textContent = totalLikes3.toString()
 }
-btndisLike1.addEventListener("click",hitLikes1)
+btndisLike1.addEventListener("click",hitLikes3)
+function hitLikes4() {
+  let totalLikes3 = parseInt(countDilikes2.value) + 1
+  countDislikes1.textContent = totalLikes2.toString()
+}
+btndisLike2.addEventListener("click",hitLikes4)
 
 
